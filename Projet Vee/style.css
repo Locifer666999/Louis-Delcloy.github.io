@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 3em;
+  color: #ff0000;
+  margin: 0;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: 10px;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 10px #ff0000;
+  transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+}
+
+h2 {
+  color: #ff0000;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #222;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ff0000;
+  box-shadow: 0 0 5px #ff0000;
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+  text-shadow: 0 0 5px #ff0000;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #666;
+}
